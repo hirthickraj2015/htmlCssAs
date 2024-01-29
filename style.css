@@ -1,0 +1,164 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+    *{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+    .logo{
+        height: 55px;
+    }
+    .profile{
+        height: 40px;
+        width: 40px;
+    }
+    .eimg{
+        height: 50px;
+        width: 50px;
+        background-color: #f8f9fa; /* Set the background color */
+        padding: 10px;
+         /* Adjust padding as needed */
+        border-radius: 5px; /* Add border radius if desired */
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .row-head{
+        margin: 1% 0 3% 0;
+        display:flex;
+        flex-direction: row;
+        justify-content:  space-evenly;
+    }
+    
+    .cont{
+        padding: 2%;
+        width:23%;
+        background-color: #ffffff;  
+        border-radius: 15px;
+    }
+    .cash{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .adcol{
+        color: green;
+        padding-inline: 2%;
+    }
+    .discol{
+        color: crimson;
+        padding-inline: 2%;
+    }
+    a, u {
+        text-decoration: none;
+        color: inherit;
+    }
+    .menue{
+        display: block;
+        text-align: center;
+    }
+    .sidemen{
+        background-color: #BFD8AF;
+        padding-bottom: 5%;
+        border-radius: 15px;
+    }
+    .cardbor{
+        border-radius: 15px;
+        padding: 10px;
+    }
+    .graphimg{
+        width: 95%;
+        height: 320px;
+        border-radius: 15px;
+    }
+    .btncol{
+        color: green;
+        background-color: #DCF2F1;
+        border: #DCF2F1;
+        width: 95%;
+    }
+    .elem {
+        margin-bottom: 10px; /* Adjust the margin as needed */
+    }
+    .btncol2{
+        margin: 20px 0 20px 0;
+        width: 75%;
+        background-color: #DCF2F1;
+        border: #DCF2F1;
+        color: black;
+    }
+    .btncol2:hover {
+        background-color: black;
+        color: white;
+    }
+    .btncol:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    /* Interactive design for the hr tag */
+    hr {
+        border: 0;
+        height: 2px;
+        background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+        margin: 20px 0;
+        padding: 7px;
+    }
+    
+    /* Adjust the hr color on hover */
+    hr:hover {
+        background: linear-gradient(to right, black, black, black);
+        transition: background 0.5s ease;
+    }
+    .row2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 5px; /* Add margin between rows */
+    }
+    
+    .cardbor .col {
+        padding: 5px; /* Add padding to columns */
+    }
+    .navbar-nav {
+        margin-left: auto; /* Move the "Dashboard" text to the right */
+    }
+    .coltr{
+        background-color: #ffffff;
+        border-radius: 15px;
+        margin: 10px;
+        padding: 2% 2% 5% 4%;
+    }
+    .form-range {
+        background-color: transparent; /* Make the background of the range input transparent */
+        width: 100%; /* Ensure the range input spans the entire width of its container */
+    }
+
+    /* Styling for the filled portion behind the sliding bar */
+    .form-range::-webkit-slider-runnable-track {
+        background-color: #BFD8AF; /* Set the background color behind the sliding bar */
+    }
+    .coltr h4 {
+        text-align: left; /* Align the heading text to the left */
+    }
+    
+    .coltr .row2 .col {
+        text-align: left; /* Align the text in the columns to the left */
+    }
+    .imgtrans{
+        height: 30px;
+        width: 30px;
+    }
+    .transcol{
+        background-color: #DCF2F1;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+    }
+    .transcol:hover{
+        background-color: aquamarine;
+    }
+    .logout{
+        margin-top: 65%;
+    }
