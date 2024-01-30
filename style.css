@@ -15,6 +15,10 @@ font-family: "Poppins", sans-serif;
     height: 40px;
     width: 40px;
 }
+.logout{
+    align-items: first baseline;
+    text-align: center;
+}
 .eimg{
     height: 50px;
     width: 50px;
@@ -25,18 +29,10 @@ font-family: "Poppins", sans-serif;
     margin-left: 0;
     margin-top: 5px;
 }
-.row-head{
-    margin: 1% 0 3% 0;
-    display:flex;
-    flex-direction: row;
-    justify-content:  space-evenly;
-}
-
 .cont{
     padding: 2%;
-    width:23%;
     background-color: #ffffff;  
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .cash{
     display: flex;
@@ -60,13 +56,16 @@ a, u {
     text-align: center;
 }
 .sidemen{
-    background-color: #BFD8AF;
+    /* background-color: #BFD8AF; */
     padding-bottom: 5%;
-    border-radius: 15px;
+    border-radius: 10px;
+    margin-left: 150px;
 }
 .cardbor{
-    border-radius: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
     padding: 10px;
+    border-color: #ffffff;
 }
 .graphimg{
     width: 95%;
@@ -88,6 +87,7 @@ a, u {
     background-color: #DCF2F1;
     border: #DCF2F1;
     color: black;
+    
 }
 .btncol2:hover {
     background-color: black;
@@ -127,7 +127,7 @@ hr:hover {
 }
 .coltr{
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 10px;
     padding: 2% 2% 5% 4%;
 }
@@ -159,6 +159,27 @@ hr:hover {
 .transcol:hover{
     background-color: aquamarine;
 }
-.logout{
-    margin-top: 65%;
+#men1{
+    width: 250px; 
+    position: absolute; 
+    top: 10;
+    left: 0;
+    transition: left 1s;
+}
+#men2{
+    margin-left: 250px;
+    transition: margin-left 1s;
+}
+.bxr{
+    font-size: 3rem;
+    margin-right: 10px;
+}
+.mcard{
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin: 10px; 
+    padding: 10px;
+}
+.bxsr{
+    font-weight: 300;
 }
